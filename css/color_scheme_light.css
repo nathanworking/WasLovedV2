@@ -1,0 +1,419 @@
+/*------------------------------------------------------------------
+[Stylesheet]
+Color Scheme - Light
+-------------------------------------------------------------------*/
+
+
+.hero_fullscreen,
+nav a,
+#message,
+.cta_button_area a,
+.color_bg{
+	color:white;
+}
+
+.hero_fullscreen {
+	background: url(../images/wasloved_bg.jpg) no-repeat center center;
+	background-color: #474B92;
+}
+
+.preloader_header,
+.subsection.darker_bg,
+.nivo-lightbox-theme-default.nivo-lightbox-overlay {
+	background-color: #fafafa;
+}
+
+.preloader_header .preloader_loader svg path.preloader_loader_circlebg {
+    stroke: rgba(0, 0, 0, .1);
+}
+
+.preloader_header .preloader_loader svg path.preloader_loader_circle {
+    transition: stroke-dashoffset 0.2s;
+    stroke: rgba(0, 0, 0, .3);
+}
+
+
+.contact_form .input-field label,
+.menu_bar_navigation ul li a{
+	color:black;
+}
+.newsletter_form input[type=text],
+.newsletter_form input[type=password],
+.newsletter_form input[type=email],
+.newsletter_form input[type=date],
+.newsletter_form textarea{
+	border-bottom: 1px solid rgba(255, 255, 255, .7);
+}
+
+.contact_form input[type=text],
+.contact_form input[type=password],
+.contact_form input[type=email],
+.contact_form input[type=date],
+.contact_form textarea {
+	border-bottom: 1px solid rgba(0, 0, 0, .4);
+}
+
+.countdown_part {
+	border-right: 1px solid rgba(255, 255, 255, .7);
+}
+
+.input-field label {
+	color:white;
+}
+
+.menu_bar {
+	background-color:white;
+}
+
+.logo_dark {
+	display:block;
+}
+
+.logo_light {
+	display:none;
+}
+
+.iconbox_icon {
+    color: rgba(0,0,0,0.5)
+}
+
+.nivo-lightbox-theme-default .nivo-lightbox-close,
+.nivo-lightbox-theme-default .nivo-lightbox-nav {
+	color:black
+}
+
+#reviews .owl-theme .owl-controls .owl-page span {border-color:white !important; background: rgba(255,255,255,0)}
+#reviews .owl-theme .owl-controls .owl-page.active span,
+#reviews .owl-theme .owl-controls.clickable .owl-page:hover span {
+	background: rgba(255,255,255,1);
+	border-color:white !important
+}
+
+#screenshots_gallery .owl-theme .owl-controls .owl-page span {border-color:black !important; background: rgba(0,0,0,0)}
+#screenshots_gallery .owl-theme .owl-controls .owl-page.active span,
+#screenshots_gallery .owl-theme .owl-controls.clickable .owl-page:hover span {
+	background: rgba(0,0,0,1);
+	border-color:black !important
+}
+
+/*------------------------------------------------------------------
+My Stuff - Nathan Anderson
+-------------------------------------------------------------------*/
+-moz-::selection { background: #484C91; color: #FFFFFF; }
+::selection { background: #484C91; color: #FFFFFF; }
+
+.slogan {
+	font-size: 40px;
+	text-transform: none;
+	color: #FFF;
+	font-family: 'Rutan-Thin';
+	line-height: 50px;
+	text-align: left;
+	opacity: 1;
+}
+.slogan-sub {
+	text-align: left;
+	color: #FFF;
+	font-size: 18px;
+	font-family: 'Rutan-Light';
+	margin: 3rem 0;
+}
+  @media (min-width: 30em) {
+		.slogan {
+			font-size: 80px;
+			font-family: 'Rutan-Thin';
+			line-height: 100px;
+			text-align: left;
+			font-weight: normal;
+			letter-spacing: 1px;
+			opacity: 1;
+		}
+		.slogan-sub {
+			text-align: left;
+			font-size: 40px;
+			font-family: 'Rutan-Thin';
+			margin: 3rem 0;
+			font-weight: normal;
+			letter-spacing: 1px;
+		}
+	}
+		@media (min-width: 52em) {
+			.slogan {
+				font-size: 115px;
+				font-family: 'Rutan-Thin';
+				line-height: 120px;
+				text-align: left;
+				opacity: 1;
+			}
+	}
+
+.white_bg {
+	background: #FFF !important;
+	box-shadow: inset 0px 2px 3px 0px rgba(0,0,0,0.10);
+	}
+.grey_bg {
+	background: #FAFBFC !important;
+	box-shadow: inset 0px 2px 3px 0px rgba(0,0,0,0.10);
+	}
+body { margin: 0; }
+
+h1 {
+	font-family: 'Rutan-Thin';
+	font-weight: normal;
+	font-size: 70px;
+	color: #444451;
+	margin-top: 1rem;
+	letter-spacing: 1.24px;
+	line-height: 90px;
+	opacity: 1;
+	color: transparent;
+	background-image: linear-gradient(360deg, #474B91 35%,#B771BD 80%);
+	background-image: -moz-linear-gradient(360deg, #474B91 35%,#B771BD 80%);
+	background-image: -webkit-linear-gradient(360deg, #474B91 35%,#B771BD 80%);
+	background-image: -o-linear-gradient(360deg, #474B91 35%,#B771BD 80%);
+	background-image: -ms-linear-gradient(360deg, #474B91 35%,#B771BD 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+	@media (max-width: 30em) {
+		h1 {
+			font-size: 40px;
+			line-height: 52px;
+			margin-top: .5rem;
+			font-family: 'Rutan-Light';
+		}
+	}
+h2 {
+	font-family: 'Rutan-Light';
+	font-weight: normal;
+	font-size: 35px;
+	text-transform: uppercase;
+	color: #595968;
+	letter-spacing: 1.24px;
+	line-height: 40px;
+	opacity: 1;
+}
+	@media (max-width: 30em) {
+		h2 {
+			font-size: 30px;
+			line-height: 40px;
+			font-family: 'Rutan-Light';
+		}
+	}
+p {
+	font-family: 'Rutan-Light';
+	font-weight: normal;
+	font-size: 18px;
+	color: #595968;
+	line-height: 24px;
+}
+	@media (max-width: 30em) {
+		p {
+			font-size: 20px;
+			line-height: 28px;
+			font-family: 'Rutan-Light';
+		}
+	}
+
+
+img {
+box-shadow: 0px 11px 20px 0px rgba(0,0,0,0.16);
+}
+
+.opening_p {
+	font-size: 25px;
+	line-height: 35px;
+	font-family: 'Rutan-Light';
+}
+
+.btn,
+.btn-large {
+	background-color: #FFF;
+	font-size: 1rem;
+	color: #474B91;
+	font-family: 'Rutan-Light';
+}
+
+.btn:hover,
+.btn-large:hover {
+	background-color: #FAFBFC;
+}
+
+.hero_fullscreen.background_solid,
+.color_bg {
+	background-color: #FFF;
+}
+
+.les_button {
+	color: #FFF;
+	background: #595198;
+	width: 100%;
+	max-width: 430px;
+}
+	.les_button:hover {
+		background: #595198;
+	}
+
+.jo-bob_button {
+	color: #FFF;
+	background: #B771BD;
+	width: 100%;
+	max-width: 430px;
+}
+	.jo-bob_button:hover {
+		background: #B771BD;
+	}
+
+ul { margin: 0; padding: 0; list-style: none; }
+li {
+	font-family: 'Rutan-Light';
+	font-weight: normal;
+	font-size: 18px;
+	color: #595968;
+	line-height: 24px;
+}
+	@media (min-width: 30em) {
+		li {
+			font-size: 25px;
+			line-height: 45px;
+			font-family: 'Rutan-Light';
+		}
+	}
+
+
+	#reviews h2:after {
+		content: "";
+		height: 3px;
+		width: 75px;
+		background: #595968;
+		top: 75px;
+		position: absolute;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%)
+	}
+	@media (min-width: 30em) {
+		#reviews h2:after {
+			top: 85px;
+		}
+	}
+
+	#faq h2 {
+		text-transform: none; }
+
+.diviver_col {
+	border: none; }
+
+	@media (min-width: 52em) {
+		.diviver_col {
+			border-right: 1px solid #A09EA9;
+		}
+	}
+
+.price {
+	font-size: 42px;
+}
+.price span {
+	font-size: 24px;
+	vertical-align: super;
+}
+
+	@media (min-width: 30em) {
+		.price {
+			font-size: 70px;
+		}
+		.price span{
+			font-size: 40px;
+			vertical-align: super;
+		}
+	}
+
+.builders {
+	text-transform: none;
+	margin-bottom: 20px;
+}
+
+a {
+	color:#FFF;
+	text-decoration: none;
+}
+
+.hero_fullscreen, nav a, #message, .cta_button_area a, .color_bg {
+	color: #474B91;
+	text-decoration: none;
+}
+
+
+
+.sign-section {
+  font-family: 'Rutan-Thin';
+  color: #595968;
+  margin: 5% auto 0 auto;
+  width: 100%;
+}
+
+  .sign-section .mc_embed_signup {
+    font-size: 25px;
+    float: right;
+    display: inline-block;
+    margin-top:5%;
+  }
+  @media (max-width: 700px) {
+      .sign-section .mc_embed_signup{
+         font-size: 1rem;
+       }
+   }
+
+        .sign-section .button-box{
+           float: none;
+           margin: 0 auto;
+           display: block;
+         }
+
+      .sign-section .button {
+        font-family: 'Rutan-Thin';
+        font-size: 20px;
+				cursor: pointer;
+        padding: 15px;
+				color: #FFF;
+        width: 35%;
+				margin-top: 40px;
+				border: 1px solid #FAFBFC;
+        background: #474B91;
+        border-radius: 5px;
+      }
+
+       @media (max-width: 360px) {
+           .sign-section .button{
+              margin: 10px auto;
+            }
+        }
+      .sign-section .email-input-box {
+        font-family: 'Rutan-Thin';
+        font-size: 20px;
+        padding: 15px;
+        margin-left: 5px;
+				margin-right: 10px;
+        color: #595968;
+				background: transparent;
+        width: 60%;
+        border: 1px solid #474B91;
+        border-radius: 5px;
+      }
+
+			@media (max-width: 30em) {
+				.sign-section .button,
+				.sign-section .email-input-box {
+					width: 100%; }
+				}
+
+		.inner {
+			text-align: center;
+			width: 100%;
+		}
+		.inner a{
+			color: #474B91;
+		}
+		.inner a:hover{
+			text-decoration: underline;
+		}
